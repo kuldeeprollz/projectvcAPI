@@ -33,7 +33,7 @@ export default class MeetingsService {
       private createRoomRes:any
   ) {}
 
-  public async meetingInfo( meetingId:string,sessionId:string) {
+  public async meetingInfo( meetingId:any,sessionId:any) {
     try {
 
     let data=[{
