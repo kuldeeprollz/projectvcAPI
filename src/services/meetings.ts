@@ -211,7 +211,7 @@ catch (e) {
 
 
 
-public async meetingList( ownerUserId:string) {
+public async meetingList( ownerUserId:any) {
     try {
 
     let data=[{
