@@ -34,7 +34,7 @@ export default (app: Router) => {
       
       try {
           var meetingId=req.query.meetingId;
-          var sessionId=req.query.sessionIdgit;
+          var sessionId=req.query.sessionId;
          
     
         const meetingsServiceInstance = Container.get(MeetingsService);
