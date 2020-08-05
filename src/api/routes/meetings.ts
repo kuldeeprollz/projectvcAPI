@@ -39,7 +39,7 @@ export default (app: Router) => {
     
         const meetingsServiceInstance = Container.get(MeetingsService);
         
-        const result  = await meetingsServiceInstance.meetingInfo(meetingId);
+        const result  = await meetingsServiceInstance.meetingInfo(meetingId,sessionId);
 
         return res.status(201).json({ result });
       } catch (e) {
